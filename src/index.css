@@ -1,0 +1,706 @@
+@import url('https://fonts.googleapis.com/css2?family=Fustat:wght@200..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@font-face {
+  font-family: 'Nohemi';
+  src: url('/fonts/Nohemi-Thin-BF6438cc5896c67.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nohemi';
+  src: url('/fonts/Nohemi-ExtraLight-BF6438cc58a2634.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nohemi';
+  src: url('/fonts/Nohemi-Light-BF6438cc5899919.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nohemi';
+  src: url('/fonts/Nohemi-Regular-BF6438cc4d0e493.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nohemi';
+  src: url('/fonts/Nohemi-Medium-BF6438cc5883899.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nohemi';
+  src: url('/fonts/Nohemi-SemiBold-BF6438cc588a48a.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nohemi';
+  src: url('/fonts/Nohemi-Bold-BF6438cc587b5b5.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nohemi';
+  src: url('/fonts/Nohemi-ExtraBold-BF6438cc5881baf.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nohemi';
+  src: url('/fonts/Nohemi-Black-BF6438cc58744d4.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 100vw;
+  height: fit-content;
+  position: relative;
+}
+
+.text {
+  font-family: Fustat;
+  font-weight: 500;
+  font-size: 32px;
+  color: #333333;
+  position: absolute;
+  top: 53px;
+  left: 200px;
+  z-index: 1;
+}
+
+.features {
+  position: relative;
+  padding-block: 120px 60px;
+  width: 100%;
+  height: fit-content;
+  background: #fafafa;
+  display: flex;
+}
+
+.content {
+  max-width: fit-content;
+  height: fit-content;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 48px;
+}
+
+.features-1 {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.info-1 {
+  font-family: Outfit;
+  font-weight: 500;
+  font-size: 24px;
+  color: #414141;
+}
+
+.info-2 {
+  font-family: Nohemi;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+}
+
+text {
+  color: #1da077;
+}
+
+.features-2 {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 40.17px;
+}
+
+.part-1 {
+  display: flex;
+  gap: 32px;
+  flex: 1;
+}
+
+.part-2 {
+  display: flex;
+  gap: 32px;
+  flex: 1;
+}
+
+.card {
+  width: 592px;
+  height: 341px;
+  border-radius: 30px;
+  transition: all 0.5s ease-out;
+}
+
+.subtract {
+  position: relative;
+  width: 592px;
+  height: 341px;
+  border-radius: 32px;
+}
+
+.subtract::before,
+.subtract::after {
+  content: "";
+  position: absolute;
+  width: 106px;
+  height: 106px;
+  background: #fff;
+  border-radius: 50%;
+  top: 117px;
+}
+.subtract::before {
+  left: -29px;
+}
+.subtract::after {
+  right: -29px;
+} 
+
+.subtract .left{
+  width: 62px;
+height: 62px;
+position: absolute;
+display: flex;
+align-items: center;
+justify-content: center;
+top: 139px;
+background:  #FAFAFA;
+border-radius: 50%;
+box-shadow: 
+    0px 6px 15px -2px #10182814 inset,   
+    0px 6px 15px -2px #10182814,         
+    0px 4px 4px 0px #00000040;  
+}
+.subtract .right{
+width: 62px;
+height: 62px;
+position: absolute;
+display: flex;
+align-items: center;
+justify-content: center;
+top: 139px;
+left: 530px;
+background:  #FAFAFA;
+border-radius: 50%;
+box-shadow: 
+    0px 6px 15px -2px #10182814 inset,   
+    0px 6px 15px -2px #10182814,         
+    0px 4px 4px 0px #00000040; 
+z-index: 10; 
+}
+
+
+.card-1 {
+  flex: 1;
+  background: #f45b5b;
+}
+.card-1 img {
+  width: 342px;
+  height: 417px;
+  position: absolute;
+  top: 8px;
+  left: -79px;
+  animation: float1 1200ms linear infinite alternate;
+}
+
+@keyframes float1 {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-11px);
+  }
+}
+
+.card-1 .description {
+  width: 351px;
+  height: auto;
+  position: absolute;
+  top: 58px;
+  left: 206px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  color: #fafafa;
+  text-align: right;
+}
+
+.card-1 .description .desc-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-1 .desc-1 > div {
+  width: fit-content;
+  font-family: Nohemi;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  text-align: center;
+  margin-left: auto;
+}
+
+.card-1 .desc-1 > p {
+  width: fit-content;
+  font-family: Outfit;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  margin-left: auto;
+}
+
+.card-1 .description > p {
+  font-family: Outfit;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: right;
+}
+
+
+
+.subtract-1 {
+  background: #f45b5b;
+}
+
+.subtract-1 .pic{
+width: 352px;
+height: 323px;
+position: absolute;
+top: 18px;
+left: 35px;
+border-bottom-left-radius: 23px;
+}
+
+.subtract-1 .profile{
+width: 352;
+height: 323;
+position: absolute;
+top: 18px;
+left: 24px;
+border-bottom-left-radius: 23px;
+}
+
+.subtract-1 .l{
+  width: 88px;
+height: 88px;
+position: absolute;
+top: 24px;
+left: 67px;
+transform: rotate(11.91 deg);
+}
+
+.subtract-1 .r{
+  width: 88px;
+height: 88px;
+position: absolute;
+top: 193px;
+left: 385px;
+transform: rotate(146.52 deg);
+}
+
+.subtract-1 .text-1{
+position: absolute;
+top: 56px;
+left: 326px;
+color: #ffffff;
+font-family: Nohemi;
+font-weight: 700;
+font-size: 20px;
+line-height: 120%;
+}
+
+.hov-1 {
+  position: relative;
+  width: 592px;
+  height: 341px;
+  z-index: 2;
+}
+
+.hov-1:hover {
+  z-index: 10;
+}
+
+.hov-1 .card-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+.hov-1 .subtract-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  z-index: 1;
+  opacity: 0;
+  overflow: hidden;
+  pointer-events: none;
+  transition: opacity 0.5s ease-out;
+}
+
+.hov-1:hover .subtract-1 {
+  pointer-events: auto;
+}
+
+.hov-1:hover .card-1 {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+.hov-1:hover .subtract-1 {
+  opacity: 1;
+}
+
+
+.card-2 {
+  flex: 1;
+  background: #5492a0;
+}
+
+.card-2 img {
+  width: 240px;
+  height: 429px;
+  position: absolute;
+  top: 3px;
+  left: 342px;
+  z-index: 1;
+  animation: float2 1200ms linear infinite alternate;
+}
+
+@keyframes float2 {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(11px);
+  }
+}
+
+.card-2 .description {
+  width: 351px;
+  height: auto;
+  position: absolute;
+  top: 58px;
+  left: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  color: #fafafa;
+}
+
+.card-2 .description .desc-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-2 .desc-1 > div {
+  width: fit-content;
+  font-family: Nohemi;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  text-align: center;
+}
+
+.card-2 .desc-1 > p {
+  width: fit-content;
+  font-family: Outfit;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+}
+
+.card-2 .description > p {
+  font-family: Outfit;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.subtract-2{
+  background: #5492A0;
+}
+
+.subtract-2 .second-pic{
+position: absolute;
+top: 38px;
+left: 62px;
+}
+
+.subtract-2 .text-1{
+position: absolute;
+top: 36px;
+left: 80px;
+font-family: Nohemi;
+font-weight: 700;
+font-size: 20px;
+line-height: 120%;
+color: #FFFFFF;
+}
+
+.hov-2 {
+  position: relative;
+  width: 592px;
+  height: 341px;
+  z-index: 1;
+}
+
+.hov-2:hover {
+  z-index: 10;
+}
+
+.hov-2 .card-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+.hov-2 .subtract-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  z-index: 1;
+  opacity: 0;
+  overflow: hidden;
+  pointer-events: none;
+  transition: opacity 0.5s ease-out;
+}
+
+.hov-2:hover .subtract-2:not(.hidden) {
+  pointer-events: auto;
+}
+
+.hov-2:hover .card-2 {
+  transform: translateX(-150%);
+  opacity: 0;
+}
+
+.hov-2:hover .subtract-2:not(.hidden) {
+  opacity: 1;
+}
+
+.hov-2 .subtract-2 .right,
+.hov-2 .subtract-3 .left {
+  cursor: pointer;
+}
+
+.subtract-2.hidden,
+.subtract-3.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.subtract-2.visible,
+.subtract-3.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.subtract-3{
+  background: #5492A0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 592px;
+  height: 341px;
+  border-radius: 32px;
+  z-index: 1;
+  pointer-events: none;
+  transition: opacity 0.5s ease-out;
+}
+
+.subtract-3.visible {
+  pointer-events: auto;
+}
+
+.subtract-3 .third-pic{
+position: absolute;
+top: 24px;
+left: 10px;
+}
+
+.subtract-3 .text-1{
+position: absolute;
+top: 41px;
+left: 119px;
+font-family: Nohemi;
+font-weight: 700;
+font-size: 20px;
+line-height: 120%;
+text-align: center;
+color: #FFFFFF;
+}
+
+
+
+.card-3 {
+  flex: 1;
+  position: relative;
+  background: #6c64a8;
+}
+
+.card-3 img {
+  position: absolute;
+  width: 307.03753662109375;
+  height: 249.9674835205078;
+  top: 100px;
+  left: -48.92px;
+  animation: float3 1200ms linear infinite alternate;
+}
+
+@keyframes float3 {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(11px);
+  }
+}
+
+.card-3 .description {
+  width: 351px;
+  height: auto;
+  position: absolute;
+  top: 58px;
+  left: 206px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  color: #fafafa;
+  text-align: right;
+}
+
+.card-3 .description .desc-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-end;
+}
+
+.card-3 .desc-1 > div {
+  width: fit-content;
+  font-family: Nohemi;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.card-3 .desc-1 > p {
+  width: fit-content;
+  font-family: Outfit;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  margin-left: auto;
+}
+
+.card-3 .description > p {
+  font-family: Outfit;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: right;
+}
+
+
+
+.card-4 {
+  flex: 1;
+  background: #a88964;
+  position: relative;
+}
+
+.card-4 img {
+  position: absolute;
+  width: 280.03568891194;
+  height: 310.76718089642645;
+  top: 53.56px;
+  left: 317.66px;
+  transform: rotate(6.05deg);
+  animation: float4 1200ms linear infinite alternate;
+}
+
+@keyframes float4 {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(11px);
+  }
+}
+
+.card-4 .description {
+  width: 351px;
+  height: auto;
+  position: absolute;
+  top: 58px;
+  left: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  color: #fafafa;
+}
+
+.card-4 .description .desc-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-4 .desc-1 > div {
+  width: fit-content;
+  font-family: Nohemi;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  text-align: center;
+}
+
+.card-4 .desc-1 > p {
+  width: fit-content;
+  font-family: Outfit;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+}
+
+.card-4 .description > p {
+  font-family: Outfit;
+  font-weight: 400;
+  font-size: 18px;
+}
