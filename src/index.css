@@ -229,6 +229,8 @@ z-index: 10;
   top: 8px;
   left: -79px;
   animation: float1 1200ms linear infinite alternate;
+  filter: drop-shadow(0px 20px 40px rgba(16, 24, 40, 0.10))
+        drop-shadow(0px 20px 40px rgba(16, 24, 40, 0.05));
 }
 
 @keyframes float1 {
@@ -396,6 +398,8 @@ line-height: 120%;
   left: 342px;
   z-index: 1;
   animation: float2 1200ms linear infinite alternate;
+  filter: drop-shadow(0px 20px 40px rgba(16, 24, 40, 0.10))
+        drop-shadow(0px 20px 40px rgba(16, 24, 40, 0.05));
 }
 
 @keyframes float2 {
@@ -539,6 +543,7 @@ color: #FFFFFF;
   height: 341px;
   border-radius: 32px;
   z-index: 1;
+  overflow: hidden;
   pointer-events: none;
   transition: opacity 0.5s ease-out;
 }
@@ -580,6 +585,8 @@ color: #FFFFFF;
   top: 100px;
   left: -48.92px;
   animation: float3 1200ms linear infinite alternate;
+  filter: drop-shadow(0px 20px 40px rgba(16, 24, 40, 0.10))
+        drop-shadow(0px 20px 40px rgba(16, 24, 40, 0.05));
 }
 
 @keyframes float3 {
@@ -653,6 +660,8 @@ color: #FFFFFF;
   left: 317.66px;
   transform: rotate(6.05deg);
   animation: float4 1200ms linear infinite alternate;
+  filter: drop-shadow(0px 20px 40px rgba(16, 24, 40, 0.10))
+        drop-shadow(0px 20px 40px rgba(16, 24, 40, 0.05));
 }
 
 @keyframes float4 {
